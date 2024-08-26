@@ -1,0 +1,52 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+*.env
+myenv
+dlib-19.24.1-cp311-cp311-win_amd64.whl
+.venv
+
+# Flask
+instance/
+*.db
+*.sqlite3
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# Static files
+/static/
+
+# Temp files
+*.tmp
+*.swp
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Flask-specific
+*.pid
+*.sock
+
+# PyCharm
+.idea/
