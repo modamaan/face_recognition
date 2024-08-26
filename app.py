@@ -13,14 +13,19 @@ amaan_face_encoding = face_recognition.face_encodings(amaan_image)[0]
 neymar_image = face_recognition.load_image_file("./Neymar/neymar.jpg")
 neymar_face_encoding = face_recognition.face_encodings(neymar_image)[0]
 
+nizam_image = face_recognition.load_image_file("./Nizam/nizamai.jpg")
+nizam_face_encoding = face_recognition.face_encodings(nizam_image)[0]
+
 # Create arrays of known face encodings and their names
 known_face_encodings = [
     amaan_face_encoding,
-    neymar_face_encoding
+    neymar_face_encoding,
+    nizam_face_encoding
 ]
 known_face_names = [
     "Mohamed amaan",
-    "Neymar jr"
+    "Neymar jr",
+    "NIzam"
 ]
 # Initialize some variables
 face_locations = []
