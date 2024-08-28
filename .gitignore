@@ -10,6 +10,12 @@ ENV/
 myenv
 dlib-19.24.1-cp311-cp311-win_amd64.whl
 .venv
+Adhithyan/
+Amaan/amaan1.jpg
+Avin/
+Joyal/
+templates/welcome.mp3
+templates/welcome2.mp3
 
 # Flask
 instance/
